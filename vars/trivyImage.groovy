@@ -1,3 +1,3 @@
 def call() {
-    sh 'trivy image sevenajay/youtube:latest > trivyimage.txt'
+    sh 'trivy image aqdamrahman/youtube:latest > trivyimage.txt'
 }
